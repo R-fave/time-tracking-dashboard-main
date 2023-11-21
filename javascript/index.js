@@ -30,7 +30,7 @@ function daily(){
         return(`
             <section id=${datas.title}>
             <div class="back-card ${datas.title}">
-              <img src=${datas.image} >
+              <img src=${datas.image} alt="svg image" >
             </div> 
       
             <div class="info-card">
@@ -57,7 +57,7 @@ function weekly(){
         return(`
             <section id=${datas.title}>
             <div class="back-card ${datas.title}">
-              <img src=${datas.image} >
+              <img src=${datas.image} alt="svg image">
             </div> 
       
             <div class="info-card">
@@ -82,7 +82,7 @@ function monthly(){
         return(`
             <section id=${datas.title}>
             <div class="back-card ${datas.title}">
-              <img src=${datas.image} >
+              <img src=${datas.image} alt="svg image" >
             </div> 
       
             <div class="info-card">
