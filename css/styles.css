@@ -165,10 +165,12 @@ button{
 
 @media(min-width: 600px) {
     main{
-        margin: 70px auto;
+        margin: 0px auto;
         max-width: 1200px;
         display: flex;
         justify-content: center;
+        align-self: center;
+        /* align-items: center; */
         gap: 1em;
         align-items: flex-end;
         padding: 0em 0em 0 3em;
@@ -242,4 +244,10 @@ button{
         padding: 1.5em;
     }
 
+}
+
+@media(min-width: 1200px){
+    main{
+        margin: 15vh auto;
+    }
 }
