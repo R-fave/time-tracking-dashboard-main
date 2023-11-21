@@ -160,14 +160,15 @@ button{
 }
 
 .attribution{
-    color: whitesmoke;
+    color: white;
 }
 
 @media(min-width: 600px) {
     main{
-        margin: 50px auto;
+        margin: 70px auto;
         max-width: 1200px;
         display: flex;
+        justify-content: center;
         gap: 1em;
         align-items: flex-end;
         padding: 0em 0em 0 3em;
@@ -181,7 +182,8 @@ button{
     }
 
     .avatar > div > p{
-        margin: 10px 0 50px 0;
+        margin: 10px 0 30px 0;
+        font-size: 30px;
         width: 50px;
     }
 
@@ -214,6 +216,7 @@ button{
         display: flex;
         gap: .3em;
         max-width: 790px;
+        min-width: 790px;
         flex-wrap: wrap;
         margin-top: 30px;
     }
@@ -227,8 +230,16 @@ button{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 1em;
         align-items: flex-start;
+    }
+
+    .info-card > div > p{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .info-card{
+        padding: 1.5em;
     }
 
 }
